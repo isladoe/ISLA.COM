@@ -1,0 +1,94 @@
+h1 {
+    color: #fdfdfc;
+    text-align: center;
+    font-size: 80px;
+    font-family: Times, serif;
+}
+
+h2{
+    color: #fdfdf9;
+    font-size: 50px;
+    font-family: Times, serif;
+    margin-top: 100px;
+	  margin-bottom: 100px;
+    margin-left: 150px;
+    text-align: center;
+    text-justify: inter-word;
+    
+}
+
+
+footer h4{
+	color:#fcfbf7;
+    font-size: 40px;
+    font-family: Times, serif;
+    margin-top: 20px;
+	  margin-bottom: 20px;
+    margin-left: 20px;
+}
+footer h5{
+    color:#f8f8f6;
+    font-size: 30px;
+    font-family: Times, serif;
+	  margin-bottom: 24px;
+    margin-left: 20px;
+}
+
+p {
+    color: #C5C6C7;
+    text-align: center;
+    font-size: 35px;
+}
+footer{
+    display:flex;
+    background-color: #f3d008; /* For browsers that do not support gradients */
+    background-image: #f3d008;
+  
+}
+
+.navbar {
+    width: 100%;
+    background-image:#3b85df
+    overflow: auto;
+    display:flex;
+    background-color: #fcda1b;
+  }
+  
+  .navbar a {
+    float: absolute;
+    padding: 12px;
+    color:  #f9f9fa;
+    text-decoration:none;
+    font-size: 20px;
+  }
+  
+  .navbar a:hover {
+    background-color: #3b85df;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }    
+  body {
+    height: 200px;
+    background-color: #3b85df; /* For browsers that do not support gradients */
+    background-image: #3b85df;
+      }
+  
+  .container {
+    position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .text-block {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    background-color: none;
+    color: #fcda1b
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
